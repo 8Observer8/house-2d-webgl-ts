@@ -28,7 +28,7 @@ const roof = new Renderable(-10, 0, 50, 50, vec3.fromValues(0.35, 0.25, 0.2), 4,
 const houseWindow = new Renderable(20, 20, 30, 50, vec3.fromValues(0, 0, 0), 0, 4);
 const windowLine0 = new Renderable(20, 38, 30, 4, vec3.fromValues(1, 1, 1), 0, 4);
 const windowLine1 = new Renderable(33, 40, 4, 30, vec3.fromValues(1, 1, 1), 0, 4);
-console.log("hello");
+
 const objects = [];
 objects.push(houseBody);
 objects.push(roof);
